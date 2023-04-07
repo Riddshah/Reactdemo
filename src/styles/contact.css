@@ -1,0 +1,128 @@
+.contact
+    {
+     background-image: url('../assets/image1.jpg');
+     height: 300px;
+     width: 400px;
+     background-size: cover;
+     background-position: left;
+    }
+    .contact{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        /* float: left; */
+        margin-left: 0px;
+       
+       
+        
+      
+        }
+        
+        .contact .leftSide {
+        height: 100%;
+        flex: 50%;
+          background-position: left;
+           background-repeat: no-repeat;
+           background-size: cover;
+           margin-left: 0px;
+         
+         
+
+        }
+        
+          
+        
+        .contact .rightSide {
+           height: 100%;
+           flex: 50%;
+           display: flex;
+           flex-direction: column;
+           justify-content: left;
+
+           
+          
+        }
+        
+          
+        
+        .contact .rightSide h1 {
+           font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+               "Lucida Sans", Arial, sans-serif;
+           font-weight: 10;
+           font-size: 50px;
+           margin-left: 30px;
+           color:beige
+           
+        }
+        
+          
+        
+        form {
+           display: flex;
+           flex-direction: column;
+           width: 600px;;
+           height: auto;
+           padding-left: 30px;
+           
+          
+         
+        }
+        
+          
+        
+        form input {
+           height: 40px;
+           width: 80%;
+           border: none;
+           border-bottom: 1px solid #121619;
+           color: black;
+           background-color:azure;
+          
+        }
+        
+          
+        
+        form textarea {
+           margin-top: 15px;
+           height: 70px;
+           width: 80%;
+           border: none;
+           border-bottom: 1px solid #121619;
+           color:white;
+          
+        }
+        input::placeholder,
+        textarea::placeholder {
+           font-weight: bold;
+           color: black;
+           font-family: Arial, Helvetica, sans-serif;
+         
+          
+        }
+        form input:focus,
+        textarea:focus {
+           outline: none;
+           color: black;
+           
+        }
+        
+          
+        
+        form label {
+           margin-top: 15px;
+           color:aliceblue;
+        }
+        
+          
+        
+        form button {
+           margin-top: 40px;
+           width: 140px;
+           height: 40px;
+           border: none;
+           background-color: #121619;
+           color: whitesmoke;
+           font-size: 15px;
+           cursor: pointer;
+        }
+        
